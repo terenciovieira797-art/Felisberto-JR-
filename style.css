@@ -1,0 +1,150 @@
+
+
+
+html{
+  scroll-behavior: smooth;
+  
+}
+
+
+  body{
+  font-family: arial;
+  background-color:black;
+  justify-content: space-between;
+}
+header{
+  justify-content: space-between;
+  display: flex;
+  align: center;
+  border-radius:11px;
+   background:black; padding:5px; text-align: center; position: sticky; top: 0; z-index: 100; }
+        
+}
+nav{ padding: 12px; text-align: center; position: sticky; top: 0; z-index:100 ; }
+        
+
+h1{
+  text-align: center;
+  font-family: arial;
+  font-size: 17px;
+  padding: 20px;
+  color:white;
+  background-color: ;
+}
+h2{
+  font-family: arial;
+  text-align: center;
+  font-size:18px;
+  color:red;
+  background-color:;
+}
+h3{
+  color:red;
+  font-size: 20px;
+  text-align: center;
+  font-family: arial;
+  
+}
+h4{
+  color:red;
+  font-family: arial;
+  font-size: 30px;
+  padding:10px;
+  text-align: center;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding:4px;
+  margin: 2px;
+  gap: 4px;
+  border-radius:10px;
+  border:solid black;
+  background-color: black;
+  
+}
+li{
+  text-decoration: none;
+  font-size:10px;
+}
+a{
+  text-decoration:none;
+  color:white;
+  font-size:13px;
+  
+}
+b{
+  color:blue;
+}
+img{
+  border-radius:8px;
+  
+}
+p{
+  padding: 4px;
+  color:white;
+  text-align: center;
+  margin: 10px;
+  background-color:;
+}
+button{
+  border-radius:15px;
+  background-color:blue;
+  border: solid blue;
+  color:white;
+  padding: 4px;
+  opacity: 5px;
+ cursor: pointer;
+font-size: 15;
+  opacity: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: pulse 1.7s ease-in-out infinite;
+  padding: 8px 15px;
+}
+  .conteudo{
+    text-align: center;
+    
+}
+.Center p{
+  margin: 2px;
+  padding: 20px;
+  
+
+}
+
+
+.Position{
+  font-family: arial;
+  font-size:15px;
+  color:blue;
+  
+}
+
+footer{
+  align-items: center;
+  background: blue;
+  padding: 8px 10px;
+  
+}
+.Position a{
+  font-size:15px;
+  color:white;
+}
+  u{
+    color:blue;
+  }
+.sobreMim{
+ text-align: center;
+}
+.imagem{
+  justify-content: space-between;
+  display: flex;
+  padding: 12px;
+}
+@keyframes pulse {
+  0%   { transform: scale(1); }
+  70%  { transform: scale(1.1);  }
+  100% { transform: scale(1);  }
+}
